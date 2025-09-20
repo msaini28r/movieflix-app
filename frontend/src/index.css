@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 transition-colors duration-200;
+  }
+  
+  .dark body {
+    @apply bg-dark-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-900 px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200;
+    @apply bg-white text-gray-900 placeholder-gray-500;
+  }
+  
+  .dark .input-field {
+    @apply bg-dark-800 text-gray-100 border-dark-600 placeholder-gray-400;
+  }
+  
+  .dark .input-field:focus {
+    @apply ring-primary-500 border-transparent;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md border border-gray-200 transition-shadow duration-200 hover:shadow-lg;
+  }
+  
+  .dark .card {
+    @apply bg-dark-800 border-dark-700;
+  }
+  
+  /* Fix select dropdown styling for dark mode */
+  select.input-field {
+    @apply bg-white text-gray-900;
+  }
+  
+  .dark select.input-field {
+    @apply bg-dark-800 text-gray-100;
+  }
+  
+  /* Fix autofill styles for dark mode */
+  .input-field:-webkit-autofill,
+  .input-field:-webkit-autofill:hover,
+  .input-field:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #111827 !important;
+  }
+  
+  .dark .input-field:-webkit-autofill,
+  .dark .input-field:-webkit-autofill:hover,
+  .dark .input-field:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #1e293b inset !important;
+    -webkit-text-fill-color: #f1f5f9 !important;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

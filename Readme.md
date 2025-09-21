@@ -19,6 +19,7 @@ MovieFlix is a comprehensive movie platform that allows users to browse, search,
 <img src="assets/img3.png" alt="Sample3" width="100%" />
 </div>
 
+<hr>
 
 ### ✨ Key Features
 

@@ -7,7 +7,7 @@ MovieFlix is a comprehensive movie platform that allows users to browse, search,
 
 ### Demo
 
-https://github.com/msaini28r/movieflix-app/assets/recording.mov
+[https://github.com/msaini28r/movieflix-app/assets/recording.mov](https://github.com/msaini28r/movieflix-app/blob/main/assests/recording.mov)
 
 
 ### ✨ Key Features

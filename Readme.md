@@ -1,13 +1,23 @@
-# MovieFlix 🎬
+# 🎬 MovieFlix 
 
 A modern, full-stack movie streaming application built with React and Node.js, offering users a Netflix-like experience for discovering and exploring movies.
 
 ### 🌟 Overview
 MovieFlix is a comprehensive movie platform that allows users to browse, search, and discover movies with detailed information including ratings, cast, plot summaries, and more. The application features a clean, responsive design with user authentication and a rich movie database.
 
-### Demo
+### ⚡️ Demo
 
-[https://github.com/msaini28r/movieflix-app/assets/recording.mov](https://github.com/msaini28r/movieflix-app/blob/main/assests/recording.mov)
+
+<div style="display: flex; gap: 10px;">
+  <img src="assets/img1.png" alt="Sample1" width="50%" />
+  <img src="assets/img2.png" alt="Sample2" width="50%" />
+</div>
+
+<hr />
+
+<div>
+<img src="assets/img3.png" alt="Sample3" width="100%" />
+</div>
 
 
 ### ✨ Key Features
